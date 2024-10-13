@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7b57af</color>
+    <color name="colorPrimaryDark">#7b57af</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="btnColor">#421C52</color>
+    <color name="textColor">#ffffff</color>
+    <color name="abtextcolor">#FFF</color>
+    <color name="colorTransparent">#481961</color>
+
+    <color name="gradientstart">#3c0761</color>
+    <color name="gradientcenter">#5a2c50</color>
+    <color name="gradientend">#90c2ed</color>
+
+
+
+
+</resources>

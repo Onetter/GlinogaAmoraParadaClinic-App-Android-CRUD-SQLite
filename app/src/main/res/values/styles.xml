@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#614390</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#614390</item>
+        <item name="actionMenuTextColor">#FFFF</item>
+    </style>
+    <!-- ActionBar styles -->
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title." parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="styleonmain" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary" type="color">#614390</item>
+    <item name="colorPrimaryDark">@color/colorTransparent</item>
+    <item name="colorAccent" type="color">#614390</item>
+
+</style>
+
+    <style name="styleonsplash" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#614390</item>
+        <item name="colorPrimaryDark">#3C0761</item>
+        <item name="colorAccent">#614390</item>
+
+    </style>
+
+    <style name="styleonaddrecord" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#614390</item>
+        <item name="colorPrimaryDark">#9C77C2</item>
+        <item name="colorAccent">#614390</item>
+    </style>
+
+    <style name="styleonupdaterecord" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#614390</item>
+        <item name="colorPrimaryDark">#9C77C2</item>
+        <item name="colorAccent">#614390</item>
+    </style>
+
+    <style name="styleonviewlist" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#330E6F</item>
+        <item name="colorPrimaryDark">#330E6F</item>
+        <item name="colorAccent">#330E6F</item>
+    </style>
+
+
+</resources>

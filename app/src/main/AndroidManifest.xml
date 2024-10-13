@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="info.codestart.glinogaprdrecrds">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/optclogo"
+        android:label="Optical Records"
+        android:roundIcon="@drawable/optclogo"
+        android:supportsRtl="true"
+        android:theme="@style/styleonviewlist">
+        <activity
+            android:label="Search Records..."
+            android:theme="@style/styleonviewlist"
+            android:name="info.codestart.glinogaprdrecrds.viewList">
+
+        </activity>
+
+        <activity android:theme="@style/styleonmain"
+            android:name="info.codestart.glinogaprdrecrds.MainActivity">
+        </activity>
+
+        <activity android:theme="@style/styleonsplash"
+            android:name=".SplashActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@style/styleonaddrecord"
+            android:name="info.codestart.glinogaprdrecrds.AddRecordActivity"
+            android:parentActivityName="info.codestart.glinogaprdrecrds.viewList" />
+        <activity android:theme="@style/styleonupdaterecord"
+            android:name="info.codestart.glinogaprdrecrds.UpdateRecordActivity"
+            android:parentActivityName="info.codestart.glinogaprdrecrds.viewList" />
+
+    </application>
+
+</manifest>

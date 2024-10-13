@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="info.codestart.glinogaprdrecrds.AddRecordActivity">
+
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="282dp"
+                android:layout_height="117dp"
+                app:srcCompat="@drawable/vieworupdaterecordlogo"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:fontFamily="sans-serif-black"
+                android:textAlignment="center"
+                android:textColor="#8a63b2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/userNameUpdate"
+                android:layout_width="499dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name"
+                android:textSize="28dp"
+                android:textColor="@color/btnColor"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Name"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userAgeUpdate"
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Age"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userAddressUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Address"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userDateUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Date"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Date"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userContactNumberUpdate"
+                android:layout_width="391dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Contact Number"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Contact number"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userLeftEyeGradeUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="OS"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" OS"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userRightEyeGradeUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="OD"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" OD"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userAODUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="AOD"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" AOD"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userOldRXUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Old RX"
+                android:inputType="textPersonName" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Old RX"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userSpecialFindingsUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Special Findings"
+                android:inputType="textPersonName" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Special Findings"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userAdditionalTestUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Additional Test"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Additional Test"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+
+            <EditText
+                android:id="@+id/userManagementUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Management"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Management"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userCaseHistoryUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Case History"
+                android:inputType="textPersonName" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Case History"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userChiefComplaintUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Chief Complaint"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Chief Complaint"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userDiagnosisUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Diagnosis"
+                android:inputType="textPersonName" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Diagnosis"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+
+            <EditText
+                android:id="@+id/userPaymentUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Payment"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Payment"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8a63b2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/UpdateUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/svu_ripple"
+                android:text="Update Record"
+                android:textAllCaps="false"
+                android:textColor="@color/textColor"
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
